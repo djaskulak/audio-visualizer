@@ -12,7 +12,7 @@
 
 function render(frequencyArray, ctx, width, height) {
 	// Fill the canvas with a color before drawing 
-	ctx.fillStyle = 'rgba(255, 255, 255, 0.2)' 
+	ctx.fillStyle = 'rgba(0, 0, 0, 0.2)'
 	ctx.fillRect(0, 0, width, height)
 	ctx.fill()
 
