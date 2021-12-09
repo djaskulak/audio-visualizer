@@ -13,7 +13,7 @@
 function render(frequencyArray, ctx, width, height) {
 	// Clear the canvas
 	ctx.fillStyle = 'rgba(255, 255, 255, 0.1)'
-	ctx.fillRect(0, 0, 300, 300)
+	ctx.fillRect(0, 0, 1000, 500)
 	ctx.fill()
 
 	// calculate the number of lines and the step between each line

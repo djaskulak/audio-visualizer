@@ -2,14 +2,20 @@
 <html>
   <head>
     <title>Audio Visualizer</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <h1>Audio Visualizer</h1>
 
-    <canvas id="canvas" width="300" height="300"></canvas>
+    <canvas id="canvas" width="1000" height="500"></canvas>
     
-    <button id="button-play">Play</button>
-    <button id="button-pause">Stop</button>
+    <div class="buttons">
+      <button type="button" class="btn btn-primary" id="button-play">Play</button>
+      <button type="button" class="btn btn-primary" id="button-pause">Stop</button>
+    </div>
 
     <script src="main.js" type="module"></script>
   </body>

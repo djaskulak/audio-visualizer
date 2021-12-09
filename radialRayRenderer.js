@@ -7,7 +7,7 @@ function render(frequencyArray, ctx, centerX, centerY, radius) {
 	// Clear the canvas
 	ctx.beginPath()
 	ctx.fillStyle = 'rgba(255, 255, 255, 0.21)'
-	ctx.fillRect(0, 0, 300, 300)
+	ctx.fillRect(0, 0, 1000, 500)
 	ctx.fill()
 
 	// Draw the circle in the center
